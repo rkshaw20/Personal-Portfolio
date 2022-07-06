@@ -4,104 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>home | rajkishor</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Raj's component library</h1>
-    <p>
-      I am attending neogCamp and I want to make a library which would make all
-      my projects lool good and consistent.
-    </p>
-    <hr>
-     <h2>@Typography</h2>
-     <h1>Biggest</h1>
-     <small>this is small.</small>
-     <hr>
-     <h2>@container</h2>
-
-      <h3>fluid container</h3>
-      <div>This is a fluid container and it will go till the end of the page.</div>
-
-      
-      <h3>centered container</h3>
-      <div> This is a centered container and it will go till the specified width.
-      </div>
-
-      <hr>
-      <h2>@links</h2>
-      <a href="/">Primary Link</a>
-      <a href="/">Secondary Link</a>
-
-      <hr>
-      <h2>@lists</h2>
-      <h3>unordered lists</h3>
-
-      <ul>
-        <li>Item one</li>
-        <li>Item two</li>
+    <nav class="navigation container">
+      <div class="nav-brand">iamRaj</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">blogs</a>
+        </li>
       </ul>
+    </nav>
 
-      <h3>unordered inline list</h3>
-       <ul>
-           <li>inline items one</li>
-           <li>inline items two</li>
-       </ul>
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg" alt="" />
+      <h1 class="hero-heading">
+        raj kishor shaw the <span class="heading-inverted">web developer</span>
+      </h1>
+    </header>
 
-       <h3>Reverse ordered list</h3>
-        <ol>
-            <li>milk</li>
-            <li>choco</li>
-        </ol>
+    <section class="section ow">
+      <div class="container conatainer-center"></div>
+      <h1>Technologies</h1>
+      <p>
+        i'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web
+        Hosting
+      </p>
+    </section>
 
-        <hr>
+    <section class="section">
+      <div class="container conatainer-center"></div>
+      <h1>Projects</h1>
+      <p>
+        I like to showcase my work and thus, you can see my projects hosted
+        online
+      </p>
+      <a class="link link-primary" href="/">See Projects</a>
+    </section>
 
-        <h2>@nav</h2>
+    <section class="section ow">
+      <div class="container conatainer-center"></div>
+      <h1>Blogs</h1>
+      <p>
+        I am also working on some technical and non technical blogs. I like to
+        document my journey.
+      </p>
+      <a class="link link-secondary" href="/">Read Blogs</a>
 
-        <nav>
-            <div>iamRaj</div>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/">Products</a>
-                </li>
-                <li>
-                    <a href="/">About</a>
-                </li>
-            </ul>
-        </nav>
+    </section>
 
-        <hr>
-        
-        <h2>Header</h2>
-        <header>
-            <img src="images/hero.svg" alt="">
-            <h1>Heading Inside Hero</h1>
-        </header>
-
-        <hr>
-        <h2>@section</h2>
-        <section>
-            <h3>white section</h3>
-            <p>This will have white background</p>
-        </section>
-        <section>
-            <h3>off white section</h3>
-            <p>This will have gray background</p>
-        </section>
-
-        <hr>
-
-        <h2>@footer</h2>
-        
-        <footer>
-            <div>Some small heading  inside footer</div>
-            <ul>
-                <li>socialone</li>
-                <li>socialtwo</li>
-                <li>socialthree</li>
-            </ul>
-        </footer>
-    </body>
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+         <li class="list-item-inline">
+          <a class="link" href="https://github.com/rkshaw20">
+          GitHub
+          </a></li> 
+          <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/RajKishorShaw17">
+              Twitter
+          </a></li>
+          <li class="list-item-inline">
+              <a class="link" href="https://www.linkedin.com/in/raj-kishor-shaw-636759144/">
+              Linkedin
+          </a></li>
+        </ul>
+      </footer>
+  </body>
 </html>
