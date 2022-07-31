@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #7e22ce;
-    --dark-gray:#6b7280;
+    --dark-gray:#767a86;
     --off-white:#f1f5f9;
 }
 body{
@@ -23,6 +23,15 @@ margin: 0px;
 .container-center{
     max-width: 600px;
     margin: auto;
+    padding: 2rem;
+}
+
+.container-center-ow{
+    background-color: var(--off-white);
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
 hr{
     margin: 2rem 0rem;
@@ -121,4 +130,12 @@ hr{
  }
  .footer ul{
     padding-inline-start: 0px;
+ }
+
+
+ /*label-tag*/
+ .label-tag{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0 0.2rem;
  }
