@@ -28,8 +28,8 @@ body {
 .container-center {
   max-width: 600px;
   width: 100%;
-  margin: auto;
   padding: 2rem;
+  margin: 2rem 0;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -39,8 +39,8 @@ body {
   background-color: var(--off-white);
   max-width: 600px;
   width: 100%;
-  margin: auto;
   padding: 2rem;
+  margin: 2rem 0;
   border-radius: 1rem;
   text-align: center;
   align-items: center;
