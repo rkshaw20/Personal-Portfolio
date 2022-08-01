@@ -11,6 +11,10 @@ font-family: 'Roboto', sans-serif;
 margin: 0px;
 }
 
+/** main **/
+main{
+    text-align: center;
+}
 /** spaces **/
 .margin-md{
     margin: 2rem;
@@ -24,6 +28,8 @@ margin: 0px;
     max-width: 600px;
     margin: auto;
     padding: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-center-ow{
@@ -32,6 +38,8 @@ margin: 0px;
     margin: auto;
     padding: 2rem;
     border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
 hr{
     margin: 2rem 0rem;
