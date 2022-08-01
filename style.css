@@ -12,10 +12,6 @@ body {
   width:100%;
 }
 
-
-/* main {
-  text-align: center;
-} */
 /** spaces **/
 .margin-md {
   margin: 2rem;
@@ -133,6 +129,9 @@ hr {
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .section h1 {
   text-align: center;
@@ -175,5 +174,20 @@ hr {
   display: inline;
   padding: 0rem;
  }
- 
+ .container-center {
+  width: auto;
+}
+.container-center-ow {
+  width: auto;
+}
+.link-primary{
+  display: block;
+}
+.link-secondary{
+  display: block;
+}
+.link{
+  margin: 0.5rem;
+}
 } 
+
